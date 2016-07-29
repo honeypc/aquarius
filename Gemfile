@@ -22,6 +22,13 @@ gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'high_voltage', :github=>"thoughtbot/high_voltage"
 gem 'mysql2', '~> 0.3.18'
+
+#custom gem
+gem 'devise'
+gem 'omniauth-github', :github => 'intridea/omniauth-github'
+gem 'omniauth-openid', :github => 'intridea/omniauth-openid'
+gem 'react-rails'
+
 group :development do
   gem 'better_errors'
   gem 'html2haml'
